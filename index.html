@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTR Quiz using Javascript</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+
+        <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+        <div class="time" id="timer">Time: 75</div>
+    </header>
+
+    <div class="wrapper">
+        <div class=quizTitle>
+            <img class=titleImage src="assets/images/lotr.png">
+            <h2>Quiz Challenge</h2>
+        </div>
+        <div id="start-screen" class="start-screen">
+            <p>
+                Test your LOTR knowledge by answering the following questions within the time limit. Be careful
+                though —Incorrect answers will reduce your time by ten seconds and penalize your score!
+            </p>
+            <button id="start">Start Quiz</button>
+        </div>
+
+        <div id="questions" class="hide">
+               <h2 id="question-title"></h2>
+            <div id="choices" class="choices">
+            </div>
+        </div>
+
+        <div id="end-screen" class="hide">
+            <h2>The End!</h2>
+            <p> Your final score is <span id="final-score"></span>.</p>
+            <p>
+                Enter initials: <input type="text" id="initials" max="3" />
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>

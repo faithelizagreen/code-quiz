@@ -1,0 +1,137 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores {
+  background-color: rgb(115, 155, 133);
+  border-radius: 25px;
+  color: white;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+
+}
+
+a:link,
+a:visited {
+  background-color: rgb(115, 155, 133);
+  color: white;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.time {
+  background-color: rgb(115, 155, 133);
+  border-radius: 25px;
+  color: white;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 50px 0px 50px;
+  
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  padding-top: 5%;
+  border: rgb(115, 155, 133) 10px;
+}
+
+.titleImage {
+  width: 50%;
+}
+
+.quizTitle > h2 {
+  margin-top: -10px;
+}
+
+.start-screen {
+  padding: 1%;
+  display: inline-block;
+  width: 60%;
+}
+
+#start {
+  margin-left: 25%;
+  background-color: rgb(115, 155, 133);
+  border-radius: 25px;
+  color: white;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#guestions {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+#choices{
+  display:grid;
+  grid-template-columns: 300px 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.choice {
+  align-items: center;
+  background-color: white;
+  border-color: rgb(115, 155, 133);
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(115, 155, 133);
+  margin: 20px;
+
+}
+
+.right {
+  background-color: rgb(115, 155, 133);
+  color: white;
+}
+
+.wrong {
+  background-color:tomato;
+  border-color: tomato;
+  color: white;
+}
+
+.choice:not(.wrong):hover {
+  background-color: rgb(115, 155, 133);
+  color: white;
+}
+
+
+.hide {
+  display: none;
+}
+
+#feedback {
+  margin-left: 25%;
+  color: #bbbbbb;
+  font-style: italic;
+  display: none;
+}
+
+/* hr {
+  width: 50%;
+  padding: 1% auto;
+} */
+
+/* .highs {
+  line-height: 3;
+}
+
+.higher {
+  text-align: initial;
+} */
