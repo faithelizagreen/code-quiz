@@ -1,9 +1,10 @@
-
+/*  Applies flexbox to header elements  */
 header {
   display: flex;
   justify-content: space-between;
 }
 
+/* Styles view highscores button */
 .scores {
   background-color: rgb(115, 155, 133);
   border-radius: 25px;
@@ -26,6 +27,7 @@ a:active {
   text-decoration: underline;
 }
 
+/* Styles countdown timer */
 .time {
   background-color: rgb(115, 155, 133);
   border-radius: 25px;
@@ -34,7 +36,7 @@ a:active {
   margin: 10px 10px 10px 10px;
   padding: 10px 50px 0px 50px;
 }
-
+/* Applies flexbox to wrapper div */
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -45,18 +47,17 @@ a:active {
   border: rgb(115, 155, 133) 10px;
 }
 
+/* Styles LOTR image on index.html */
 .titleImage {
   width: 70%;
 }
 
-.scoreImage {
-  width:60%;
-}
-
+/* Styles quiz header */
 .quizTitle > h2 {
   margin-top: -25px;
 }
 
+/* Styles p tag on start screen */
 .start-screen {
   padding: 1%;
   display: inline-block;
@@ -64,6 +65,7 @@ a:active {
   font-size: 20px;
 }
 
+/* styles start quiz button */
 #start {
   margin-left: 25%;
   background-color: rgb(115, 155, 133);
@@ -77,11 +79,13 @@ a:active {
   cursor: pointer;
 }
 
+/*  Styles questions */
 #guestions {
   display: inline-block;
   margin-top: 100px;
 }
 
+/* Styles answer choices into 2x2 grid */
 #choices{
   display:grid;
   grid-template-columns: 300px 300px;
@@ -89,6 +93,7 @@ a:active {
   grid-row-gap: 20px;
 }
 
+/*  Styles answer choice box */
 .choice {
   align-items: center;
   background-color: white;
@@ -101,37 +106,35 @@ a:active {
   font-weight: bolder;
 
 }
-
+/* Answer displays green if right */
 .right {
   background-color: rgb(115, 155, 133);
   color: white;
 }
-
+/* Answer displays red if wrong */
 .wrong {
   background-color:tomato;
   border-color: tomato;
   color: white;
 }
 
+/* Hover effect styled to not show if question wrong  */
 .choice:not(.wrong):hover {
   background-color: rgb(115, 155, 133);
   color: white;
 }
 
+/* Styled to hide elements */
 .hide {
   display: none;
 }
 
-#feedback {
-  margin-left: 25%;
-  color: #bbbbbb;
-  font-style: italic;
-  display: none;
-}
 
 #end-screen > p {
   font-size: 20px;
 }
+
+/* Styles submit button */
 #submit
 {
 align-items: center;
@@ -144,17 +147,24 @@ font-size: 15px;
 font-weight: bolder;
 }
 
+/* Adds hover to submit button */
 #submit:hover {
   background-color: rgb(115, 155, 133);
   color: white;
 }
 
+/* Styles input box */
 #initials {
   border-radius: 10px;
   padding: 4px;
   font-size: 15px
 }
 
+/* Styles high score image on highscore.html */
+.scoreImage {
+  width:60%;
+
+/* Styles clear highscore button in highscore.html */
 .clear {
   background-color: rgb(115, 155, 133);
   border-radius: 25px;
@@ -164,6 +174,7 @@ font-weight: bolder;
   padding: 10px 10px 10px 10px;
 }
 
+/* Styles go back button in highscore.html*/
 .goBack {
   background-color: rgb(115, 155, 133);
   border-radius: 25px;
@@ -173,7 +184,7 @@ font-weight: bolder;
   padding: 10px 50px 10px 50px;
 }
 
-
+/* Styles saved scores in highscore.html */
 .saved-scores > li {
   list-style: none;
   font-size: 22px;
@@ -189,6 +200,5 @@ font-weight: bolder;
 .saved-scores > li:nth-child(odd) {
   background-color: white;
 }
-
 
 
