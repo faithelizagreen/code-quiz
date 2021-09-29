@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   justify-content: space-between;
@@ -32,7 +33,6 @@ a:active {
   font-size: 22px;
   margin: 10px 10px 10px 10px;
   padding: 10px 50px 0px 50px;
-  
 }
 
 .wrapper {
@@ -46,17 +46,22 @@ a:active {
 }
 
 .titleImage {
-  width: 50%;
+  width: 70%;
+}
+
+.scoreImage {
+  width:60%;
 }
 
 .quizTitle > h2 {
-  margin-top: -10px;
+  margin-top: -25px;
 }
 
 .start-screen {
   padding: 1%;
   display: inline-block;
   width: 60%;
+  font-size: 20px;
 }
 
 #start {
@@ -66,7 +71,7 @@ a:active {
   color: white;
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
+  margin: 25px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
@@ -92,6 +97,8 @@ a:active {
   padding: 10px;
   color: rgb(115, 155, 133);
   margin: 20px;
+  font-size: 15px;
+  font-weight: bolder;
 
 }
 
@@ -111,7 +118,6 @@ a:active {
   color: white;
 }
 
-
 .hide {
   display: none;
 }
@@ -123,15 +129,66 @@ a:active {
   display: none;
 }
 
-/* hr {
-  width: 50%;
-  padding: 1% auto;
-} */
-
-/* .highs {
-  line-height: 3;
+#end-screen > p {
+  font-size: 20px;
+}
+#submit
+{
+align-items: center;
+background-color: white;
+border-color: rgb(115, 155, 133);
+border-radius: 10px;
+padding: 4px;
+color: rgb(115, 155, 133);
+font-size: 15px;
+font-weight: bolder;
 }
 
-.higher {
-  text-align: initial;
-} */
+#submit:hover {
+  background-color: rgb(115, 155, 133);
+  color: white;
+}
+
+#initials {
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 15px
+}
+
+.clear {
+  background-color: rgb(115, 155, 133);
+  border-radius: 25px;
+  color: white;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.goBack {
+  background-color: rgb(115, 155, 133);
+  border-radius: 25px;
+  color: white;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 50px 10px 50px;
+}
+
+
+.saved-scores > li {
+  list-style: none;
+  font-size: 22px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.saved-scores > li:nth-child(even) {
+  background-color: rgb(115, 155, 133);
+
+}
+
+.saved-scores > li:nth-child(odd) {
+  background-color: white;
+}
+
+
+

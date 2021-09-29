@@ -11,19 +11,19 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <!-- Div for timer -->
-        <div id="time"></div>
-        <!-- Div for quiz content -->
-        <div id="questions">
-            <h1>Highscores</h1>
-            <ul id="highScore"></ul>
-            <!-- Buttons -->
-            <button id="goBack">Go Back</button>
-            <button id="clear" value="reset">Clear Highscore</button>
+    <header>
+            <div class = "goBack"><a href="index.html">Go Back</a></div>
+            <button class="clear" value="reset">Clear Highscores</button>
+    </header>
+
+    <div class= wrapper>
+        <div class= "highScores">
+            <img class=scoreImage src="assets/images/highscorelotr.png">
+                <ul id="saved-scores" class="saved-scores"></ul>
         </div>
     </div>
-    <script src="logic.js"></script>
+
+    <script src="./assets/js/logic.js"></script>
 </body>
 
 </html>

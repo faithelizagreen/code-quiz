@@ -1,3 +1,4 @@
+//Array of questions for quiz
 const questions = [
     {
         title: `Which actor broke his foot while kicking a helmet for a scene?`,
@@ -11,8 +12,8 @@ const questions = [
     },
     {
         title: `How Many Rings Of Power Were Forged?`,
-        choice: ['Ten', 'Eighteen', 'Twenty-One', 'Twenty'],
-        answer: 'Twenty'
+        choice: ['10', '18', '21', '20'],
+        answer: '20'
     },
     {
         title: `Finish the Sentence: "They're taking the hobbits to..."`,
