@@ -134,7 +134,7 @@ if (savedScoresEl !== null) {
     for (let i = 0; i < highScores.length; i++) {
         let scoreList = document.createElement("li");
 
-        scoreList.textContent = `${highScores[i].initials} ${highScores[i].score}`;
+        scoreList.textContent = ` ${highScores[i].initials} - ${highScores[i].score}`;
         savedScoresEl.appendChild(scoreList);
     }
 }

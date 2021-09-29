@@ -163,6 +163,7 @@ font-weight: bolder;
 /* Styles high score image on highscore.html */
 .scoreImage {
   width:60%;
+}
 
 /* Styles clear highscore button in highscore.html */
 .clear {
@@ -184,21 +185,24 @@ font-weight: bolder;
   padding: 10px 50px 10px 50px;
 }
 
+
 /* Styles saved scores in highscore.html */
 .saved-scores > li {
   list-style: none;
-  font-size: 22px;
-  border-radius: 20px;
-  margin: 5px;
-}
-
-.saved-scores > li:nth-child(even) {
-  background-color: rgb(115, 155, 133);
-
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  margin: 3px;
+  border: 5px solid rgba(128, 128, 128, 0.393);
 }
 
 .saved-scores > li:nth-child(odd) {
-  background-color: white;
+  background-color: rgb(148, 176, 161);
+}
+
+.saved-scores > li:nth-child(even) {
+  background-color: rgb(118, 107, 107);
+  color: darkgrey;
 }
 
 
